@@ -1,0 +1,448 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+.all{
+	background-color:black;
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+ 	min-width: 100%;
+  	min-height: 100%;
+	margin-top:30px;
+	padding-top:30px;
+}
+
+.dot {
+margin-top:10px;
+float :right;
+  height: 100px;
+  width: 100px;
+margin-right:85px;
+  background-color:black;
+  border-radius: 50%;
+  display: inline-block;
+ border-color:#DE8D00;
+border:solid;
+}
+#side{
+	height:500px;
+	width:270px;
+	float:right;
+	background-color:#EBB014;
+	 border-radius: 5%;
+	margin-top:100px;
+}
+.txt{
+	font-weight:bold;
+	font-color:black;
+	font-size:20;
+	
+}
+.text{
+	
+}
+
+#list{
+	margin-top:150px;
+}
+
+.panel{
+	float:right;
+	width:270px;
+	height:40px;
+	background-color:#EBB014;
+	margin-top:-490px;
+	margin-right:-270px;
+	border:solid;
+	border-color:black;
+	border-radius:10px;
+}
+.center{
+	height:100px;
+	width:100px;
+	margin-left:400px;
+	background-color:#EBB014;
+	 border-radius: 5%;
+	margin-top:200px;
+	
+}
+.pagee{
+	height:40px;
+	width:99%;
+	float:right;
+	background-color:black;
+	 border-radius: 0%;
+	
+	border:solid;
+border-color:#EBB014;
+}
+.borderr{
+	height:412px;
+	width:500px;
+	float:right;
+	background-color:transparent;
+	 border-radius: 0%;
+	border:solid;
+	border-color:#EBB014;
+	margin-top:100px;
+	margin-right:-510px;
+}
+#s1{
+	width:100%;
+	height:30px;
+	background-color:#EBB014;
+}
+.mydropbtnn {
+position:absolute;
+  background-color: #EBB014;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: solid;
+  border-color:black;
+ margin-top:-2px;
+border-radius:12px;
+
+}
+
+.mydropdownn {
+  position: relative;
+  display: inline-block;
+ color: black;
+  padding: 5px 10px;
+
+}
+
+.mydropdownn-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 100px;
+  background-color: none;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 1;
+  border:none;
+border-color:none;
+background:transparent;
+margin-top:15px;
+
+}
+
+.mydropdownn-content a {
+text-align:center;
+  color: black;
+ padding: 5px 2px;
+  text-decoration: none;
+  display: block;
+border:none;
+border-color:black;
+background-color:#EBB014;
+border-radius:00px;
+}
+.mydropdownn-content a:hover {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mydropdownn:hover .mydropdownn-content {
+
+display: block;
+
+}
+
+.mydropdownn:hover .mydropbtnn {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.mydropdownn-content:focus{
+		outline:solid;
+		transition: 0.4s ease;
+	  }
+
+.c1:focus{
+	outline:solid;
+	  }
+.mydropdownn-content:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: #DE8D00;
+}
+
+.mydropdownn-content:active {
+  background-color: #DE8D00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mydropdownn-content span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mydropdownn-content span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+.mydropdownn-content:hover span {
+  padding-right: 25px;
+}
+
+.mydropdownn-content:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+.mybutn{ 
+
+background-color: #EBB014;
+  border: none;
+ border-color:black;
+  color: black;
+  padding: 8px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+border-radius:0px;
+font-weight:bold;
+width:170px;
+
+    }
+.mybutn:focus{
+		outline:solid;
+		transition: 0.4s ease;
+	  }
+
+.c1:focus{
+	outline:solid;
+	  }
+.mybutn:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: #DE8D00;
+}
+
+
+.mybutn:active {
+  background-color: #DE8D00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mybutn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mybutn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+
+.mybutn:hover span {
+  padding-right: 25px;
+}
+
+.mybutn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.mydropbtn {
+  background-color: #EBB014;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: solid;
+  border-color:black;
+ margin-top:2px;
+border-radius:12px;
+ margin-right:-60px;
+}
+
+.mydropdown {
+  position: relative;
+  display: inline-block;
+ color: black;
+  padding: 5px 10px;
+
+}
+
+.mydropdown-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  background-color: none;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 1;
+  border:none;
+border-color:none;
+background:transparent;
+margin-top:0px;
+
+}
+
+.mydropdown-content a {
+text-align:center;
+  color: black;
+ padding: 5px 2px;
+  text-decoration: none;
+  display: block;
+border:none;
+border-color:black;
+background-color:#EBB014;
+border-radius:00px;
+}
+.mydropdown-content a:hover {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mydropdown:hover .mydropdown-content {
+
+display: block;
+
+}
+
+.mydropdown:hover .mydropbtn {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.mydropdown-content:focus{
+		outline:solid;
+		transition: 0.4s ease;
+	  }
+
+.c1:focus{
+	outline:solid;
+	  }
+.mydropdown-content:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: #DE8D00;
+}
+
+.mydropdown-content:active {
+  background-color: #DE8D00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mydropdown-content span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mydropdown-content span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+.mydropdown-content:hover span {
+  padding-right: 25px;
+}
+
+.mydropdown-content:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#birthday{
+	background-color:black;
+	color:#FFD700;
+}
+
+
+
+/* The container */
+.container {
+  display: inline;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #DE8D00;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #EBB014;
+}
+
+.checked {
+  color: red;
+}

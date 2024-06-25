@@ -1,0 +1,12 @@
+ .sudo {
+            width: 230px;
+            height: 195px;
+            margin: 50px;
+            background-image: url(
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190417124305/250.png");
+        }
+  
+        .sudo:hover {
+            background-image: url(
+"https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+        }

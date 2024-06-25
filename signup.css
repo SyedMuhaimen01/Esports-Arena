@@ -1,0 +1,132 @@
+.page{
+	height:40px;
+	width:99%;
+	float:right;
+	background-color:black;
+	 border-radius: 0%;
+	
+	border:solid;
+border-color:#EBB014;
+}
+.border{
+	height:490px;
+	width:460px;
+	float:right;
+	background-color:transparent;
+	 border-radius: 0%;
+	border:solid;
+	border-color:#EBB014;
+	margin-top:-210px;
+	margin-right:-810px;
+}
+
+.dropbtnn {
+position:absolute;
+  background-color: #EBB014;
+  color: black;
+  padding: 16px;
+  width:315px;
+  font-size: 16px;
+  border: solid;
+  border-color:black;
+border-radius:4px;
+
+}
+
+.dropdownn {
+  position: relative;
+  display: inline-block;
+ color: black;
+  padding: 5px 10px;
+
+}
+
+.dropdownn-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 100px;
+  background-color: none;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 1;
+  border:none;
+border-color:none;
+background:transparent;
+margin-top:15px;
+
+}
+
+.dropdownn-content a {
+text-align:center;
+  color: black;
+ padding: 5px 2px;
+  text-decoration: none;
+  display: block;
+border:none;
+border-color:black;
+background-color:#EBB014;
+border-radius:00px;
+}
+.dropdownn-content a:hover {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.dropdownn:hover .dropdownn-content {
+
+display: block;
+
+}
+
+.dropdownn:hover .dropbtnn {background-color: #DE8D00;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.dropdownn-content:focus{
+		outline:solid;
+		transition: 0.4s ease;
+	  }
+
+.c1:focus{
+	outline:solid;
+	  }
+.dropdownn-content:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: #DE8D00;
+}
+
+.dropdownn-content:active {
+  background-color: #DE8D00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.dropdownn-content span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropdownn-content span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+.dropdownn-content:hover span {
+  padding-right: 25px;
+}
+
+.dropdownn-content:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#strip{
+	margin-left:-210px;
+	width:460px;
+	height:107px;
+	background-color:#EBB014;
+	margin-top:20px;
+}
